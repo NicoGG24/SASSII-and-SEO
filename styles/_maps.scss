@@ -1,0 +1,22 @@
+$coloresBody: (
+    Mheader:#151b29,
+    Mads:#151b29,
+    Mfooter:#151b29,
+);
+
+@each $section, $color in $coloresBody{
+    .bc--#{$section}{
+        background-color: #151b29;
+    }
+}
+
+.bc--Mheader{
+
+}
+.bc--Mads{
+
+}
+.bc--Mfooter{
+
+}
+
